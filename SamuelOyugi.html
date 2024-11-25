@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samuel_Oyugi Portfolio</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: royalblue;
+      color: gold;
+      overflow-x: hidden;
+    }
+
+    h2, p, nav a {
+      font-family: 'Verdana', sans-serif;
+    }
+
+    /* Header Navigation */
+    header {
+      background-color: darkblue;
+      padding: 10px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: gold;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Section Styles */
+    section {
+      margin: 20px auto;
+      padding: 20px;
+      border: 2px solid gold;
+      border-radius: 10px;
+      background-color: rgba(72, 61, 139, 0.8); /* Semi-transparent purple */
+      max-width: 800px;
+    }
+
+    /* Text Effects */
+    h2 {
+      text-align: center;
+      text-shadow: 0 0 10px gold, 0 0 20px goldenrod;
+    }
+
+    p, form input, form button {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    /* Form Styling */
+    form input, form button {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid gold;
+      border-radius: 5px;
+    }
+
+    form button {
+      background-color: gold;
+      color: darkblue;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: goldenrod;
+    }
+
+    /* Scroll Behavior */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="https://samueloyugi.my.canva.site/portfolio-resume-website">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm Samuel Oyugi. I love Data and analytics but currently learning coding and creating solutions.</p>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <p>Bsc IT(final year undergraduate, [Machakos University ]</p>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>My 1st project will go here</p>
+      <p>My N project will go here</p>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+<p>No back end to collect your data. Just click the contact on the header, it will navigate you to my real portfolio </p>
+        <input type="text" placeholder="e.g Samuel Oyugi" required>
+        <input type="email" placeholder="e.g samoyugi877@gmail.com" required>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
